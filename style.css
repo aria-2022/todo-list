@@ -1,0 +1,93 @@
+/* 2nd step */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+}
+
+/* second color: rgb(85, 41, 220); */
+
+body {
+    background-color: #020631;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    /* background-color: white; */
+    background-image: url("https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png");
+    background-position: center;
+    background-size: cover;
+    margin: 100px auto 20px;
+
+}
+
+.title {
+    color: white;
+    /* text-align: center; */
+}
+
+.user-input {
+    margin-right: -120px;
+    height: 30px;
+    width: 300px;
+    /* border-radius: 5px; */
+    margin: 10px 0;
+    padding: 0 15px 0 5px;
+    outline: none;
+}
+
+.add-button {
+    margin-left: -12px; 
+    width: 20px;
+    height: 30px;
+    /* border-radius: 5px;
+    background-color: white; */
+}
+
+.add-button:hover {
+    background-color: rgb(240, 13, 191);
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    /* background-color: white; */
+    width: 314px;
+    margin: 5px auto;
+    height: 30px;
+    /* border-radius: 5px; */
+    padding: 5px;
+
+}
+
+li:hover {
+    background-color: rgb(85, 41, 220);
+    text-decoration: line-through 2px solid yellow;
+    color: white;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+.bg-w {
+    background-color: white;
+    color: #333;
+}
+.checkbox {
+    height: 13px;
+    width: 13px;
+
+}
+
+.footer {
+    margin-top: 50px;
+    color: white;
+}
